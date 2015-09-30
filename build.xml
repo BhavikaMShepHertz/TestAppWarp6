@@ -13,10 +13,10 @@
     <property name="source" value="1.6"/>
     <path id="AntwithJUnitPrj1.classpath">
         <pathelement location="bin"/>
-        <pathelement location="../AppWarp-Scripts/lib/App42MultiPlayerGamingSDK.jar"/>
-        <pathelement location="D:/software/eclipse-SDK-3.7-win32/eclipse/plugins/junit-4.11.jar"/>
-        <pathelement location="D:/software/eclipse-SDK-3.7-win32/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
-        <pathelement location="../../../Downloads/java-json.jar/java-json.jar"/>
+        <pathelement location="lib/App42MultiPlayerGamingSDK.jar"/>
+        <pathelement location="lib/junit.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+        <pathelement location="lib/java-json.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
