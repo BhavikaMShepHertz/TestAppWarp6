@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="3" failures="1" hostname="Bhavika-PC" name="com.warp.Test.Testauto" tests="14" time="39.157" timestamp="2015-09-30T08:02:21">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/software/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\classes" />
+    <property name="env.COMPUTERNAME" value="BHAVIKA-PC" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.runtime.version" value="1.6.0_16-b01" />
+    <property name="env.HOMEPATH" value="\Users\Bhavika" />
+    <property name="user.name" value="Bhavika" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre6\bin" />
+    <property name="ant.project.default-target" value="AntwithJUnitPrj1" />
+    <property name="ant.project.name" value="AntwithJUnitPrj1" />
+    <property name="java.version" value="1.6.0_16" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 42 Stepping 7, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\Bhavika\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre6\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="D:/software/eclipse-SDK-3.7-win32/eclipse" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre6" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Bhavika\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\Bhavika\Desktop\java\AntwithJUnitPrj1\build12.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="14.2-b01" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Bhavika" />
+    <property name="ant.library.dir" value="D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="ant.file.AntwithJUnitPrj1" value="C:\Users\Bhavika\Desktop\java\AntwithJUnitPrj1\build12.xml" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_16" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\Bhavika\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/software/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts/" />
+    <property name="user.home" value="C:\Users\Bhavika" />
+    <property name="target" value="1.6" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre6\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.6.0_16\bin;D:\software\grails-2.2.1\grails-2.2.1\bin;C:\Program Files\Skype\Phone\;C:\apache-ant-1.9.6\bin;D:\software\eclipse-SDK-3.7-win32\eclipse;" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Users\Bhavika\Desktop\java\AntwithJUnitPrj1\bin;C:\Users\Bhavika\Desktop\java\AppWarp-Scripts\lib\App42MultiPlayerGamingSDK.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\junit-4.11.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.hamcrest.core_1.1.0.v20090501071000.jar;C:\Users\Bhavika\Downloads\java-json.jar\java-json.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-launcher.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit.jar;D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.LOGONSERVER" value="\\BHAVIKA-PC" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.io.tmpdir" value="C:\Users\Bhavika\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="2a07" />
+    <property name="eclipse.pdebuild.home" value="/D:/software/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/./" />
+    <property name="ant.file.type.AntwithJUnitPrj1" value="file" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Bhavika\AppData\Local" />
+    <property name="user.dir" value="C:\Users\Bhavika\Desktop\java\AntwithJUnitPrj1" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.6.0_16\bin;D:\software\grails-2.2.1\grails-2.2.1\bin;C:\Program Files\Skype\Phone\;C:\apache-ant-1.9.6\bin;D:\software\eclipse-SDK-3.7-win32\eclipse;" />
+    <property name="basedir" value="C:\Users\Bhavika\Desktop\java\AntwithJUnitPrj1" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\software\eclipse-SDK-3.7-win32\eclipse\plugins\org.apache.ant_1.8.2.v20110505-1300\lib\ant.jar" />
+    <property name="env.USERNAME" value="Bhavika" />
+    <property name="source" value="1.6" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.GRAILS_HOME" value="D:\software\grails-2.2.1\grails-2.2.1" />
+    <property name="env.USERDOMAIN" value="BHAVIKA-PC" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="AntwithJUnitPrj1" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.warp.Test.Testauto" name="case15subscriberoom" time="5.021" />
+  <testcase classname="com.warp.Test.Testauto" name="case4testwithuname1" time="1.0" />
+  <testcase classname="com.warp.Test.Testauto" name="case2testwithvaliduname" time="0.0" />
+  <testcase classname="com.warp.Test.Testauto" name="case6getroomsinfo" time="9.044" />
+  <testcase classname="com.warp.Test.Testauto" name="case1testWithNull" time="0.0">
+    <failure message="expected:&lt;4&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;4&gt; but was:&lt;0&gt;
+	at com.warp.Test.Testauto.case1testWithNull(Testauto.java:93)
+</failure>
+  </testcase>
+  <testcase classname="com.warp.Test.Testauto" name="case14roominfo" time="6.006" />
+  <testcase classname="com.warp.Test.Testauto" name="case18unsubscriberoom" time="6.014" />
+  <testcase classname="com.warp.Test.Testauto" name="case13joinroom" time="1.008">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.warp.Test.ZoneListener.onCreateRoomDone(ZoneListener.java:35)
+	at com.shephertz.app42.gaming.multiplayer.client.WarpClient.createRoom(WarpClient.java:1477)
+	at com.warp.Test.Testauto.case13joinroom(Testauto.java:440)
+</error>
+  </testcase>
+  <testcase classname="com.warp.Test.Testauto" name="case5testwithuname2" time="5.014" />
+  <testcase classname="com.warp.Test.Testauto" name="case9createroom" time="0.0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.warp.Test.ZoneListener.onCreateRoomDone(ZoneListener.java:35)
+	at com.shephertz.app42.gaming.multiplayer.client.WarpClient.createRoom(WarpClient.java:1477)
+	at com.warp.Test.Testauto.case9createroom(Testauto.java:305)
+</error>
+  </testcase>
+  <testcase classname="com.warp.Test.Testauto" name="case3testwithuname" time="0.0" />
+  <testcase classname="com.warp.Test.Testauto" name="case7createroom1" time="2.0" />
+  <testcase classname="com.warp.Test.Testauto" name="case8createroom2" time="4.004" />
+  <testcase classname="com.warp.Test.Testauto" name="case10userinfo" time="0.0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.warp.Test.ZoneListener.onCreateRoomDone(ZoneListener.java:35)
+	at com.shephertz.app42.gaming.multiplayer.client.WarpClient.createRoom(WarpClient.java:1477)
+	at com.warp.Test.Testauto.case10userinfo(Testauto.java:335)
+</error>
+  </testcase>
+  <system-out><![CDATA[Setup
+Test Case-15:Subscribe room with room id
+currentStatte2
+currentStatte2
+onConnectDone Connection Success
+currentStatte2
+onCreateRoom roomname Room3 id156084822
+currentStatte2
+Room Joined--
+currentStatte2
+User subsrcibe room---156084822
+Test Case-4: Connect with same username twice
+currentStatte2
+onConnectDone Connection Error
+Test Case-2: Connect with valid username
+onConnectDone Bad Request
+Connect successfully
+onConnectDone Bad Request
+Test Case-6: Get all room info
+currentStatte2
+onConnectDone Connection Success
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+onConnectDone Connection Error Recoverable
+test with null
+Test Case-1: Connect without any username
+onConnectDone Bad Request
+Test Case-14:Get room info
+currentStatte2
+onConnectDone Connection Success
+Room has been created
+currentStatte2
+onCreateRoom roomname Room1 id380864273
+Room Joined--
+User joined room---null
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+onConnectDone Bad Request
+Test Case-18:Unsubscribe room with room id
+currentStatte2
+onConnectDone Connection Error
+onConnectDone Connection Success
+currentStatte2
+onCreateRoom roomname Room3 id285996121
+Room Joined--
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+onConnectDone Bad Request
+User unsubsrcibe room---null
+Test Case-13:Join room with room id
+currentStatte2
+onConnectDone Connection Error
+Create room
+Test Case-5: Connect with differ username twice
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+onConnectDone Bad Request
+Test Case-9:Create Room with valid room name and no of users
+onConnectDone Bad Request
+Test Case-3: Connect with same/different username
+onConnectDone Bad Request
+Connect successfully....
+onConnectDone Bad Request
+Disconnect...
+Connect again..
+onConnectDone Bad Request
+Test Case-7:Create Room with valid room name and no of users not given
+currentStatte2
+currentStatte2
+onConnectDone Connection Error
+Conneted........
+Test Case-8:Create Room without room name and no of users given only
+currentStatte2
+currentStatte2
+currentStatte2
+currentStatte2
+onConnectDone Bad Request
+Test Case-10:Get user info
+onConnectDone Bad Request
+]]></system-out>
+  <system-err><![CDATA[Exception in thread "MessageDispatchThread" java.lang.NullPointerException
+	at com.warp.Test.RoomListen.onUnSubscribeRoomDone(RoomListen.java:61)
+	at com.shephertz.app42.gaming.multiplayer.client.WarpClient.onResponse(WarpClient.java:561)
+	at com.shephertz.app42.gaming.multiplayer.client.MessageDispatchThread.run(MessageDispatchThread.java:48)
+]]></system-err>
+</testsuite>
