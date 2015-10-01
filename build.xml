@@ -65,7 +65,8 @@
     </path>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-        
+        <classpath refid="AntwithJUnitPrj1.classpath" />
+	
             <test name="com.warp.Test.Testauto" todir="${junit.output.dir}"/>
             <classpath refid="AntwithJUnitPrj1.classpath"/>
         </junit>
