@@ -54,6 +54,7 @@
         </unzip>
     </target>
     <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+    	<echo message="ANT_HOME: ${env.ANT_HOME}"/>
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
@@ -65,7 +66,7 @@
     </path>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-           <classpath refid="AntwithJUnitPrj1.classpath"/>
+           
 	
             <test name="com.warp.Test.Testauto" todir="${junit.output.dir}"/>
             
@@ -85,6 +86,7 @@
     <target name="junitreport">
     	<mkdir dir="${junit.output.dir}/html" />
         <junitreport todir="${junit.output.dir}">
+        	
       	  
             <fileset dir="${junit.output.dir}">
                 <include name="TEST-*.xml"/>
@@ -92,5 +94,7 @@
         	  
         	<report format="frames" todir="${junit.output.dir}/html"/>
         </junitreport>
+         <fail message="Junit tests failed. Check log and/or reports."
+           if="test.failed"/>
     </target>
 </project>
