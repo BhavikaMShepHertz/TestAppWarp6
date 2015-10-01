@@ -65,10 +65,10 @@
     </path>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-        <classpath refid="AntwithJUnitPrj1.classpath" />
-	
+           <classpath refid="AntwithJUnitPrj1.classpath"/>
+	<echo>${AntwithJUnitPrj1.classpath}</echo>
             <test name="com.warp.Test.Testauto" todir="${junit.output.dir}"/>
-            <classpath refid="AntwithJUnitPrj1.classpath"/>
+            
         </junit>
     </target>
     <target name="ConnectTestCase (1)">
@@ -85,7 +85,7 @@
     <target name="junitreport">
     	<mkdir dir="${junit.output.dir}/html" />
         <junitreport todir="${junit.output.dir}">
-        	  
+      	  
             <fileset dir="${junit.output.dir}">
                 <include name="TEST-*.xml"/>
             </fileset>
