@@ -59,6 +59,10 @@
     </target>
     <target name="AntwithJUnitPrj1">
         <mkdir dir="${junit.output.dir}"/>
+        <path id="junit.class.path">
+        <pathelement location="lib/junit.jar"/>
+        <pathelement location="${junit.output.dir}" />
+    </path>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
         
