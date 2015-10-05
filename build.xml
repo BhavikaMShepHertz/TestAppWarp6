@@ -53,7 +53,8 @@
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
         </unzip>
     </target>
-    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+    
+    <target description="compile" name="build-eclipse-compiler">
     	<echo message="ANT_HOME: ${env.ANT_HOME}"/>
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
